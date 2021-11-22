@@ -44,3 +44,7 @@ https://hello-world-codes-api.herokuapp.com/
 Pull Requests are welcome! 
 
 Can't find a language in the API? Or maybe spotted a typo? Create an issue for it!
+
+## Credits
+
+Data sourced from [this csv Kaggle dataset](https://www.kaggle.com/ihelon/hello-world-in-programming-languages), cleaned and transformed into JSON using [this script](https://github.com/N-Shar-ma/Hello-World-API/blob/master/HelloWorldCleanUp.ipynb)
