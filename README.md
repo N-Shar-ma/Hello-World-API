@@ -3,7 +3,7 @@
 A free unlimited API that serves the basic hello world code in over 650 programming languages.
 
 ## Base URL: 
-coming soon after deployment!
+https://hello-world-codes-api.herokuapp.com/
 
 ## Endpoints:
 
