@@ -1,6 +1,6 @@
 # Hello World API
 
-A free unlimited API that serves the basic hello world code in over 650 programming languages.
+A free unlimited API that serves the basic **hello world code in over 650 programming languages.**
 
 ## Base URL: 
 https://hello-world-codes-api.herokuapp.com/

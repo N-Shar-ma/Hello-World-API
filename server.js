@@ -2,12 +2,11 @@ const express = require("express")
 const app = express()
 
 app.use(express.json())
+app.use(express.static('public'))
 
 const codesRouter = require("./routes/codes")
 const languagesRouter = require("./routes/languages")
-const indexRouter = require("./routes/index")
 
-app.use("/", indexRouter)
 app.use("/codes", codesRouter)
 app.use("/languages", languagesRouter)
 

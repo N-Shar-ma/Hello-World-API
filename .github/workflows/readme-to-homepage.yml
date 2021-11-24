@@ -1,0 +1,24 @@
+# this workflow converts the README to html for the index page served as the entrypoint to website, whenever README is updated
+
+name: README to Hompage
+
+on:
+  push:
+    paths:
+      - 'README.md'
+
+jobs:
+  readme-to-homepage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >-
+            -s
+            -o public/index.html
+            README.md
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: 'public/index.html'
+          message: 'updated homepage to reflect changes in README'
